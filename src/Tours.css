@@ -1,0 +1,191 @@
+@font-face {
+  font-family: 'med';
+  src: url('../public/NeueHaasGrotDisp-65Medium-Trial.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bold';
+  src: url('../public/NeueHaasGrotDisp-75Bold-Trial.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bb';
+  src: url('../public/NeueHaasGrotDisp-95Black-Trial.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: 'med', sans-serif;
+  color: white;
+  padding: 0px;
+}
+
+.tours-page {
+  font-family: 'med', sans-serif;
+  padding-top: 0px;
+  padding-left: 0px;
+  background-image: url('../public/tbg.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: center;
+  background-position-y: 5%;
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-right: 115px;
+  list-style-type: none;
+}
+
+nav img {
+  margin-left: 15px;
+  height: auto;
+  margin-right: 700px;
+}
+
+li {
+  color: #9FC3DB;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+a {
+  color: #9FC3DB;
+  text-decoration: none;
+}
+
+.title h1 {
+  font-family: 'bold', sans-serif;
+  font-size: 13rem;
+  opacity: 50%;
+  color: #F2D0D0;
+  letter-spacing: 0.06em;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.title {
+  position: relative;
+  z-index: 2;
+  margin-left: 220px;
+  margin-top: 100px;
+}
+
+.o {
+  opacity: 0%;
+}
+
+.title p {
+  margin-top: 0px;
+  font-family: 'med', sans-serif;
+  font-size: 1.5rem;
+  opacity: 50%;
+  color: #F2D0D0;
+  padding-left: 10px;
+}
+
+/* Tours Section */
+.tos {
+  padding-left: 60px;
+}
+
+.countdown-heading {
+  font-size: 3.2rem;
+  font-weight: 900;
+  color: #d3b3c2;
+  margin-left: 15px;
+}
+
+.countdown-container {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  gap: 60px;
+}
+
+.timer {
+  display: flex;
+  gap: 30px;
+}
+
+.time-box {
+  background: linear-gradient(rgba(31, 36, 43, 1), rgba(39, 29, 36, 1));
+  padding: 25px 35px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.time-box p {
+  font-size: 3.5rem;
+  margin: 0;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.time-box span {
+  font-size: 1.2rem;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+.concert-info {
+  font-size: 1.1rem;
+  color: #aaa;
+}
+
+.wtv {
+  display: flex;
+  gap: 60px;
+  margin-top: 40px;
+  max-width: 100vw;
+}
+
+.city-selector-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(1, 1, 1, 0.3);
+  padding: 25px;
+  border-radius: 16px;
+  width: 340px;
+  height: 250px;
+  justify-content: space-between;
+}
+
+select { 
+  padding: 10px 16px;
+  background: #111;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid #555;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+/* Submit Button */
+.submit-button {
+  margin-top: 15px;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #a76a84, #5e2b4d);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Map */
+.map-container {
+  border-radius: 12px;
+  overflow: hidden;
+  width: 600px;
+  height: 250px;
+  margin-top: 40px;
+}
