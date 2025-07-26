@@ -13,12 +13,11 @@ import song2 from '../public/song2.jpg';
 
 export default function Store() {
   const albums = [
-    { title: "Days After Rodeo", img: album1 },
-    { title: "Jackboys 2", img: album2 },
-    { title: "Rodeo", img: album3 },
-    { title: "Astro World", img: album4 },
+    { title: "Days Before Rodeo", img: album4 },
+    { title: "Rodeo", img: album1 },
+    { title: "Astro World", img: album2 },
+    { title: "Jackboys 2", img: album3 },
   ];
-
   const merch = [
     { title: "Cactus Jack Hoodie", img: hoodie1 },
     { title: "FE!N Hoodie", img: hoodie2 },
