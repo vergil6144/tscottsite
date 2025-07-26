@@ -57,7 +57,7 @@ li{
 }
 .title h1{
     font-family: 'bold', sans-serif;
-    font-size:13rem;
+    font-size:10rem;
     opacity:50%;
     color:#F2D0D0;
     letter-spacing: 0.06em;
@@ -83,7 +83,34 @@ li{
     color:#F2D0D0;
     padding-left:10px;
 }
-a{
-    color:#9FC3DB;
+nav a{
+    /* color:#9FC3DB; */
     text-decoration: none;
+}
+nav a:hover{
+    color:#b4defa; 
+}
+.book-button {
+  
+  background: #eac1c7;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size:10rem;
+  cursor: pointer;
+  color: #1a1a1a;
+  transition: 0.3s ease;
+    margin-left: 15vw;
+    margin-top: 5px;
+
+}
+
+.book-button:hover {
+  background: #f1d3d9;
+}
+
+.book-button a{
+  text-decoration: none;
+  color: #1a1a1a;
 }

@@ -56,12 +56,12 @@ li {
   margin-top: 20px;
 }
 
-a {
+nav a {
   color: #9FC3DB;
   text-decoration: none;
 }
 
-.title h1 {
+/* .title h1 {
   font-family: 'bold', sans-serif;
   font-size: 13rem;
   opacity: 50%;
@@ -69,7 +69,7 @@ a {
   letter-spacing: 0.06em;
   margin-bottom: 0px;
   padding-bottom: 0px;
-}
+} */
 
 .title {
   position: relative;
